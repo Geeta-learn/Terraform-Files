@@ -4,7 +4,9 @@ KodeKloud"@"12345   ---- new password for KodeKloud
 udemystudent151113
 
 Terraform Notes
----------------
+-------------------------------------------------------------
+Credentials
+-------------
 AWS User
 Secret Key - 5KKuH0a9dBw1d0eUXbSMHthZeSEnASdYVSFzsHKZ
 Access Key - AKIA5FTZBKIEALMFVZAS
