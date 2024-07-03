@@ -1,4 +1,4 @@
-First Simple EC2
+First Simple EC2 cretaion
 -----------------------------------
 provider "aws" {
   region = "us-east-2"
