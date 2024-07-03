@@ -1,0 +1,66 @@
+First Simple EC2
+-----------------------------------
+provider "aws" {
+  region = "us-east-2"
+  secret_key = "5KKuH0a9dBw1d0eUXbSMHthZeSEnASdYVSFzsHKZ"
+  access_key = "AKIA5FTZBKIEALMFVZAS"
+} 
+
+resource "aws_instance" "myec2" {
+    ami = "ami-09694bfab577e90b0"
+    instance_type = "t2.micro"
+}
+
+
+Create 2 EC2's with names
+--------------------------------------------
+provider "aws" {
+  region = "us-east-2"
+  secret_key = "5KKuH0a9dBw1d0eUXbSMHthZeSEnASdYVSFzsHKZ"
+  access_key = "AKIA5FTZBKIEALMFVZAS"
+} 
+
+resource "aws_instance" "myec2_1" {
+    ami = "ami-09694bfab577e90b0"
+    instance_type = "t2.micro"
+    tags = {
+     Name = "Server1"
+    }
+}
+
+resource "aws_instance" "myec2_2" {
+    ami = "ami-09694bfab577e90b0"
+    instance_type = "t2.micro"
+    tags = {
+     Name = "Server2"
+    }
+}
+
+Create GitHub repo
+--------------------------
+
+
+
+
+Creating IAM User
+------------------------------
+
+
+
+
+Creating Security Group
+--------------------------------------
+
+
+Provider Versions:
+----------------------------------
+terraform {
+    required_providers {
+        aws = {
+            source = "hashicorp/aws"
+            //version = ">=5.35.0"
+            //version = "~>5.35.0"
+            version = ">5.32.0,<5.34.0"
+        }
+    }
+}

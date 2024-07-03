@@ -1,0 +1,10 @@
+which terraform ---> will tell the location where terraform binary is placed
+
+KodeKloud"@"12345   ---- new password for KodeKloud
+udemystudent151113
+
+Terraform Notes
+---------------
+AWS User
+Secret Key - 5KKuH0a9dBw1d0eUXbSMHthZeSEnASdYVSFzsHKZ
+Access Key - AKIA5FTZBKIEALMFVZAS
